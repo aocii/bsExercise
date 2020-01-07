@@ -1,0 +1,65 @@
+body {
+    background-image: url("/forest.jpg");
+    /* background-position: center; */
+    /* background-repeat: no-repeat;  */
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#brand {
+    color: green;
+    font-size: 3rem;
+}
+
+#brand:hover {
+    text-shadow: 5px 5px 20px rgb(163, 163, 163);
+}
+
+.navbar-nav .nav-link {
+    color: green;
+    text-shadow: 2px 2px 8px rgb(163, 163, 163);
+}
+
+.navbar-nav .nav-link:hover {
+    border-radius: 20%;
+    box-shadow: 2px 2px 8px rgb(163, 163, 163);
+}
+
+.crousel-item img {
+    border-radius: 10%;
+}
+img{
+    border-radius: 20%;
+    box-shadow: 10px 10px 40px rgb(163, 163, 163);
+    opacity: 0.7;
+}
+img:hover{
+    opacity: 1;
+}
+.explanation {
+    opacity: 0.8;
+    font-weight: 100;
+    color: white;
+    text-shadow: 10px 10px 40px black;
+    /* background: rgba(0, 0, 0, 0.5); */
+    border-radius: 10%;
+    
+}
+.explanation:hover {
+    opacity: 1;
+    font-weight: 100;
+    color: white;
+    text-shadow: 10px 10px 40px black;
+    background: rgba(27, 66, 15, 0.5);
+    border-radius: 10%;
+    
+}
+#main{
+    margin-top: 150px;
+}
+.scrolled{
+    background: rgb(252, 252, 252);
+    transition: background 500ms;
+    opacity: 0.80;
+}
